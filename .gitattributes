@@ -1,0 +1,6 @@
+*.py text eol=lf
+*.ipynb linguist-generated
+*.h5 binary
+*.keras binary
+*.tflite binary
+*.pb binary
