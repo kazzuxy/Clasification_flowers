@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+  <rect width="1000" height="620" fill="#f8fafc"/>
+  <text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#0f172a">Flower AIoT Serial Wiring Diagram</text>
+  <rect x="80" y="110" width="250" height="360" rx="18" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="205" y="150" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#1e3a8a">NodeMCU</text>
+  <text x="205" y="180" text-anchor="middle" font-family="Arial" font-size="16" fill="#1e3a8a">ESP8266 / ESP32</text>
+  <rect x="670" y="105" width="250" height="390" rx="18" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="795" y="145" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#14532d">4-Channel Relay</text>
+  <text x="795" y="175" text-anchor="middle" font-family="Arial" font-size="16" fill="#14532d">Low-voltage DC loads only</text>
+  <g font-family="Arial" font-size="16" fill="#0f172a">
+    <text x="105" y="235">D1 / GPIO5</text><text x="105" y="285">D2 / GPIO4</text><text x="105" y="335">D5 / GPIO14</text><text x="105" y="385">D6 / GPIO12</text><text x="105" y="435">5V / VU</text><text x="105" y="455">GND</text>
+    <text x="840" y="235">IN1</text><text x="840" y="285">IN2</text><text x="840" y="335">IN3</text><text x="840" y="385">IN4</text><text x="840" y="435">VCC</text><text x="840" y="455">GND</text>
+  </g>
+  <g stroke-width="4" fill="none">
+    <line x1="330" y1="230" x2="670" y2="230" stroke="#2563eb"/><line x1="330" y1="280" x2="670" y2="280" stroke="#7c3aed"/><line x1="330" y1="330" x2="670" y2="330" stroke="#ea580c"/><line x1="330" y1="380" x2="670" y2="380" stroke="#dc2626"/><line x1="330" y1="435" x2="670" y2="435" stroke="#16a34a"/><line x1="330" y1="455" x2="670" y2="455" stroke="#111827"/>
+  </g>
+  <g font-family="Arial" font-size="15" fill="#334155">
+    <text x="500" y="220" text-anchor="middle">Relay 1 command '1'</text><text x="500" y="270" text-anchor="middle">Relay 2 command '2'</text><text x="500" y="320" text-anchor="middle">Relay 3 command '3'</text><text x="500" y="370" text-anchor="middle">Relay 4 command '4'</text><text x="500" y="425" text-anchor="middle">5V supply</text><text x="500" y="480" text-anchor="middle">Common ground</text>
+  </g>
+  <g fill="#fde68a" stroke="#ca8a04" stroke-width="2" font-family="Arial" font-size="14">
+    <circle cx="735" cy="535" r="22"/><text x="735" y="540" text-anchor="middle">LED1</text>
+    <circle cx="795" cy="535" r="22"/><text x="795" y="540" text-anchor="middle">LED2</text>
+    <circle cx="855" cy="535" r="22"/><text x="855" y="540" text-anchor="middle">LED3</text>
+    <circle cx="915" cy="535" r="22"/><text x="915" y="540" text-anchor="middle">LED4</text>
+  </g>
+  <text x="500" y="585" text-anchor="middle" font-family="Arial" font-size="17" font-weight="700" fill="#b91c1c">Safety: use 5V-12V LEDs/DC lamps only. Do not use 220V AC mains.</text>
+</svg>
