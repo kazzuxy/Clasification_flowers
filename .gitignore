@@ -24,17 +24,4 @@ Thumbs.db
 *.cache/
 
 # Machine learning artifacts
-exports/*
-models/*
-results/*
-*.h5
-*.keras
-*.tflite
-*.pb
-*.weights
-*.ckpt
-*.pt
-*.pth
-*.onnx
-*.npz
-*.npy
+

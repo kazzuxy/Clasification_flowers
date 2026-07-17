@@ -1,0 +1,26 @@
+{
+  "best_model": "MobileNetV2 Transfer Learning + Fine-Tuning",
+  "image_size": [
+    224,
+    224
+  ],
+  "num_classes": 7,
+  "class_names": [
+    "daisy",
+    "dandelion",
+    "lily",
+    "orchid",
+    "rose",
+    "sunflower",
+    "tulip"
+  ],
+  "metrics": {
+    "train_loss": 0.0033089015632867813,
+    "train_accuracy": 0.9992411136627197,
+    "val_loss": 0.020111585035920143,
+    "val_accuracy": 0.9939289093017578,
+    "test_loss": 0.02829526923596859,
+    "test_accuracy": 0.993934154510498,
+    "fit_status": "GOOD FIT"
+  }
+}

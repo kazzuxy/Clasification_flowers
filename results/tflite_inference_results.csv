@@ -1,0 +1,10 @@
+filepath,label_asli,hasil_prediksi,probabilitas,benar
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/rose/7979111409_93a92d27cf_o.jpg,rose,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/dandelion/6193587638_90e7480b53_o.jpg,dandelion,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/rose/5843664899_21b20a94dd_o.jpg,rose,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/val/orchid/8505987237_cf07748498_c.jpg,orchid,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/val/lily/3692467014_7c9de9fd59_o.jpg,lily,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/val/rose/4656719762_e0df0f876f_o.jpg,rose,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/sunflower/4641330797_5e673b4a21_o.jpg,sunflower,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/tulip/8671657977_d7486143cf_o.jpg,tulip,daisy,,False
+/root/.cache/kagglehub/datasets/junkal/flowerdatasets/versions/1/flowers/train/rose/9602483236_e13c5e052c_k.jpg,rose,daisy,,False
