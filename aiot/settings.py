@@ -10,14 +10,13 @@ DEFAULT_CLASSES = ROOT / "exports" / "class_names.json"
 CONFIDENCE_THRESHOLD = 0.60
 SEND_COOLDOWN_SECONDS = 0.75
 
-# Four-relay demo mapping. The classifier has seven flower labels, so the
-# remaining classes are routed to "0" (all relays off) unless expanded.
+# Four-relay demo mapping.
 SERIAL_COMMANDS: Dict[str, bytes] = {
-    "daisy": b"1",
-    "dandelion": b"2",
-    "lily": b"3",
-    "orchid": b"4",
-    "rose": b"0",
-    "sunflower": b"0",
-    "tulip": b"0",
+    "daisy": b"0",
+    "dandelion": b"0",
+    "lily": b"0",
+    "orchid": b"1",      # Relay 1
+    "rose": b"2",        # Relay 2
+    "tulip": b"3",       # Relay 3
+    "sunflower": b"4",   # Relay 4
 }
